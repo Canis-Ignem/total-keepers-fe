@@ -1,0 +1,150 @@
+{
+  "layout": {
+    "home": "Home",
+    "campus": "Summer Campus Bilbao",
+    "coaches": "Coaches",
+    "contact": "Contact",
+    "gloves": "TKG Gloves",
+    "photos": "Photos"
+  },
+  "home": {
+    "paragraph_title": "What is Total Keepers?",
+    "paragraph_subtitle": "What is our Goalkeeper Training Campus?",
+    "paragraph_1": "It's much more than just training. It's a formative experience designed exclusively for goalkeepers who want to take their performance to the next level. Over several days of intensive work, our specialized coaches focus on perfecting every aspect of goalkeeping: individual technique, positioning, reflexes, decision-making, aerial play, one-on-ones, and ball distribution, among others.",
+    "paragraph_2": "Each session is designed to bring out the maximum potential of every goalkeeper, combining specific exercises, error analysis, tailored physical and psychological preparation, and personalized follow-up. All in a professional, motivating environment surrounded by other goalkeepers with the same passion for improvement. And best of all, always working in SMALL GROUPS.",
+    "paragraph_3": "Compete against other goalkeepers in battles and competitive games to win Total Keepers prizes!",
+    "coming_up_next": "Summer Campus Vitoria-Gasteiz",
+    "coming_soon": "Coming Soon",
+    "button_text": "Sign up now",
+    "campus_weekly_planning": "WEEKLY PLANNING BILBAO",
+    "founder_quote": "The goalkeeper is the most important player on the team. Not only do they defend the goal, but they also organize the defense and are the first attacker. That's why their training must be comprehensive and tailored to their specific needs.",
+    "founder_1": "Aitor Perez - co-founder",
+    "founder_2": "Unai Goti - co-founder",
+    "testimonial_1": "In my experience during the weeks I was at the campus, I don't think I've seen things that could be improved, as it was very good.",
+    "testimonial_2": "The treatment was excellent, she came home happy every day. She appreciated the advice she was given.",
+    "testimonial_3": "Unbeatable atmosphere!",
+    "testimonial_4": "Great treatment of the kids",
+    "testimonial_5": "Learned a lot, thank you!",
+    "testimonial_6": "Very good and intense training sessions, we'll be back",
+    "train_with_us": "Train with us",
+    "hear_our_clients": "Hear our clients",
+    "": ""
+  },
+  "campus": {
+    "campus_weekly_planning": "WEEKLY PLANNING BILBAO",
+    "information_and_registration": "Information and Registration",
+    "week_1_dates": "June 23 - 27",
+    "week_2_dates": "June 30 - July 4",
+    "week_3_dates": "July 7 - 11",
+    "week_1_alt": "Weekly planning Turn 1",
+    "week_2_alt": "Weekly planning Turn 2", 
+    "week_3_alt": "Weekly planning Turn 3"
+  },
+  "catalog": {
+    "title": "GLOVES CATALOG",
+    "information_and_registration": "Information and Registration",
+    "sizes_label": "Sizes:",
+    "size_label": "Size",
+    "choose_your_size": "Choose your size",
+    "size_selected": "Size selected",
+    "select_size_required": "Please select a size",
+    "select_size_first": "Select your size first",
+    "previous": "Previous",
+    "next": "Next",
+    "buy_button": "Add to cart",
+    "buy_button_added": "Added!",
+    "products": {
+      "guante_pro_grip_2025": {
+        "name": "Pro Grip 2025 Gloves",
+        "description": "Professional grip, German latex palm, ergonomic fit."
+      },
+      "guante_all_weather": {
+        "name": "All Weather Gloves",
+        "description": "Optimal performance in all weather conditions."
+      },
+      "guante_junior": {
+        "name": "Junior Gloves",
+        "description": "Special for young goalkeepers, maximum comfort and protection."
+      },
+      "guante_ultra_flex": {
+        "name": "Ultra Flex Gloves",
+        "description": "Superior flexibility for fast and precise movements."
+      },
+      "guante_aqua_control": {
+        "name": "Aqua Control Gloves",
+        "description": "Excellent grip in wet and rainy conditions."
+      },
+      "guante_classic": {
+        "name": "Classic Gloves",
+        "description": "Classic design with modern technology for demanding goalkeepers."
+      },
+      "guante_speed_junior": {
+        "name": "Speed Junior Gloves",
+        "description": "Lightweight and comfortable, ideal for fast young goalkeepers."
+      },
+      "guante_power_grip": {
+        "name": "Power Grip Gloves",
+        "description": "Maximum grip and protection for intense matches."
+      },
+      "guante_eco_friendly": {
+        "name": "Eco Friendly Gloves",
+        "description": "Made with recycled materials, ecological and resistant."
+      },
+      "guante_training": {
+        "name": "Training Gloves",
+        "description": "Perfect for daily training and intensive use."
+      },
+      "guante_soft_touch": {
+        "name": "Soft Touch Gloves",
+        "description": "Soft palm for greater comfort and ball control."
+      },
+      "guante_extreme_grip": {
+        "name": "Extreme Grip Gloves",
+        "description": "Extreme grip for demanding game conditions."
+      },
+      "guante_summer_edition": {
+        "name": "Summer Edition Gloves",
+        "description": "Breathable and lightweight, ideal for summer."
+      }
+    },
+    "cart_title": "Your cart",
+    "cart_empty": "Your cart is empty.",
+    "remove_button": "Remove",
+    "cart_total": "Total:",
+    "clear_cart_button": "Clear cart"
+  },
+  "checkout": {
+    "title": "GLOVES CATALOG",
+    "information_and_registration": "Information and Registration",
+    "sizes_label": "Sizes:",
+    "previous": "Previous",
+    "next": "Next",
+    "buy_button": "Buy",
+    "buy_button_added": "Added!",
+    "cart_title": "Your cart",
+    "cart_empty": "Your cart is empty.",
+    "remove_button": "Remove",
+    "cart_total": "Total:",
+    "clear_cart_button": "Clear cart",
+    "checkout_title": "Checkout",
+    "checkout_empty": "Your cart is empty.",
+    "checkout_remove": "Remove",
+    "checkout_total": "Total:",
+    "checkout_confirm": "Confirm Purchase",
+    "checkout_quantity": "Quantity:",
+    "checkout_tag": "Tag:",
+    "checkout_sizes": "Size(s):",
+    "checkout_button": "Checkout",
+    "checkout_subtotal": "Subtotal",
+    "checkout_shipping": "Shipping",
+    "checkout_free_shipping": "FREE",
+    "checkout_secure": "Secure checkout",
+    "checkout_ssl": "SSL encrypted • Money back guarantee",
+    "checkout_promo": "Add promo code",
+    "checkout_apply": "Apply",
+    "checkout_continue_shopping": "Continue Shopping",
+    "checkout_items": "items",
+    "checkout_each": "each",
+    "checkout_proceed": "Proceed to Checkout"
+}
+}

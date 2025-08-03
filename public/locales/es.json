@@ -1,0 +1,157 @@
+{
+
+  "layout": {
+    "home": "Inicio",
+    "campus": "Campus de Verano Bilbao",
+    "coaches": "Entrenadores",
+    "contact": "Contacto",
+    "gloves": "Guantes TKG",
+    "photos": "Fotos"
+  },
+  "campus":{
+    "campus_weekly_planning":"PLANIFICACIÓN SEMANAL BILBAO",
+    "information_and_registration": "Información y Matrícula",
+    "week_1_dates": "23 - 27 Junio",
+    "week_2_dates": "30 Junio - 4 Julio", 
+    "week_3_dates": "7 - 11 Julio",
+    "week_1_alt": "Planificación semanal Turno 1",
+    "week_2_alt": "Planificación semanal Turno 2",
+    "week_3_alt": "Planificación semanal Turno 3"
+  },
+  "home": {
+    "paragraph_title": "¿Qué es Total Keepers?",
+    "paragraph_subtitle": "¿Qué es nuestro Campus de Entrenamiento de Porteros?",
+    "paragraph_1": "Es mucho más que solo entrenamiento. Es una experiencia formativa diseñada exclusivamente para porteros que quieren llevar su rendimiento al siguiente nivel. Durante varios días de trabajo intensivo, nuestros entrenadores especializados se enfocan en perfeccionar cada aspecto del juego de portero: técnica individual, posicionamiento, reflejos, toma de decisiones, juego aéreo, uno contra uno y distribución del balón, entre otros.",
+    "paragraph_2": "Cada sesión está diseñada para sacar el máximo potencial de cada portero, combinando ejercicios específicos, análisis de errores, preparación física y psicológica personalizada, y seguimiento individualizado. Todo en un ambiente profesional y motivador rodeado de otros porteros con la misma pasión por mejorar. Y lo mejor de todo, siempre trabajando en GRUPOS PEQUEÑOS.",
+    "paragraph_3": "¡Compite contra otros porteros en batallas y juegos competitivos para ganar premios de Total Keepers!",
+    "coming_up_next": "Campus de Verano Vitoria-Gasteiz",
+    "coming_soon": "Próximamente",
+    "button_text": "Apúntate ahora",
+    "campus_weekly_planning": "PLANIFICACIÓN SEMANAL BILBAO",
+    "founder_quote": "El portero es el jugador más importante del equipo. No solo defiende la portería, sino que también organiza la defensa y es el primer atacante. Por eso su entrenamiento debe ser integral y adaptado a sus necesidades específicas.",
+    "founder_1": "Aitor Perez - co-founder",
+    "founder_2": "Unai Goti - co-founder",
+    "testimonial_text_1": "El entrenamiento de Daniel transformó completamente mis habilidades como portero. Su expertise técnico y pasión por el deporte son evidentes en cada sesión de entrenamiento.",
+    "testimonial_text_2": "Los métodos de entrenamiento en Total Keepers son de clase mundial. He mejorado mis reflejos y posicionamiento dramáticamente desde que me uní al programa.",
+    "testimonial_text_3": "Lo que distingue a Daniel es su capacidad para entender las necesidades únicas de cada portero y adaptar el entrenamiento en consecuencia. ¡Altamente recomendado!",
+    "testimonial_1": "En mi experiencia durante las semanas que estuve en el campus, no creo haber visto cosas que se pudieran mejorar, ya que estuvo muy bien.",
+    "testimonial_2": "El trato fue excelente, llegaba a casa contenta todos los días. Valoró mucho los consejos que le dieron.",
+    "testimonial_3": "¡Ambiente inmejorable!",
+    "testimonial_4": "Gran trato con los niños",
+    "testimonial_5": "Aprendí mucho, ¡gracias!",
+    "testimonial_6": "Entrenamientos muy buenos e intensos, volveremos",
+    "train_with_us": "Entrena con nosotros",
+    "hear_our_clients": "Escucha a nuestros clientes"
+  },
+  "catalog":{
+    "title":"CATÁLOGO DE GUANTES",
+    "information_and_registration": "Información y Matrícula",
+    "sizes_label": "Tallas:",
+    "size_label": "Talla",
+    "choose_your_size": "Elige tu talla",
+    "size_selected": "Talla seleccionada",
+    "select_size_required": "Selecciona una talla",
+    "select_size_first": "Selecciona tu talla primero",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "buy_button": "Añadir al carrito",
+    "buy_button_added": "¡Añadido!",
+    "products": {
+      "guante_pro_grip_2025": {
+        "name": "Guante Pro Grip 2025",
+        "description": "Agarre profesional, palma de látex alemán, ajuste ergonómico."
+      },
+      "guante_all_weather": {
+        "name": "Guante All Weather",
+        "description": "Rendimiento óptimo en todas las condiciones climáticas."
+      },
+      "guante_junior": {
+        "name": "Guante Junior",
+        "description": "Especial para jóvenes porteros, máxima comodidad y protección."
+      },
+      "guante_ultra_flex": {
+        "name": "Guante Ultra Flex",
+        "description": "Flexibilidad superior para movimientos rápidos y precisos."
+      },
+      "guante_aqua_control": {
+        "name": "Guante Aqua Control",
+        "description": "Excelente agarre en condiciones húmedas y lluviosas."
+      },
+      "guante_classic": {
+        "name": "Guante Classic",
+        "description": "Diseño clásico con tecnología moderna para porteros exigentes."
+      },
+      "guante_speed_junior": {
+        "name": "Guante Speed Junior",
+        "description": "Ligero y cómodo, ideal para jóvenes porteros veloces."
+      },
+      "guante_power_grip": {
+        "name": "Guante Power Grip",
+        "description": "Máximo agarre y protección para partidos intensos."
+      },
+      "guante_eco_friendly": {
+        "name": "Guante Eco Friendly",
+        "description": "Fabricado con materiales reciclados, ecológico y resistente."
+      },
+      "guante_training": {
+        "name": "Guante Training",
+        "description": "Perfecto para entrenamientos diarios y uso intensivo."
+      },
+      "guante_soft_touch": {
+        "name": "Guante Soft Touch",
+        "description": "Palma suave para mayor comodidad y control del balón."
+      },
+      "guante_extreme_grip": {
+        "name": "Guante Extreme Grip",
+        "description": "Agarre extremo para condiciones de juego exigentes."
+      },
+      "guante_summer_edition": {
+        "name": "Guante Summer Edition",
+        "description": "Transpirable y ligero, ideal para el verano."
+      }
+    },
+    "cart_title": "Tu carrito",
+    "cart_empty": "Tu carrito está vacío.",
+    "remove_button": "Eliminar",
+    "cart_total": "Total:",
+    "clear_cart_button": "Vaciar carrito"
+  },
+  "checkout": {
+    "checkout_title": "Finalizar compra",
+    "checkout_empty": "Tu carrito está vacío.",
+    "checkout_remove": "Eliminar",
+    "checkout_total": "Total:",
+    "checkout_confirm": "Confirmar compra",
+    "checkout_quantity": "Cantidad:",
+    "checkout_tag": "Etiqueta:",
+    "checkout_sizes": "Talla(s):",
+    "checkout_button": "Finalizar compra",
+    "empty_cart_message": "Añade algunos productos a tu carrito para comenzar.",
+    "continue_shopping": "Seguir comprando",
+    "review_order": "Revisa tu pedido y completa tu compra",
+    "your_cart": "Tu carrito",
+    "quantity_label": "Cantidad:",
+    "remove": "Eliminar",
+    "order_summary": "Resumen del pedido",
+    "add_promo_code": "🎁 Añadir código promocional",
+    "enter_coupon_code": "Ingresa código de cupón",
+    "apply": "Aplicar",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "free": "GRATIS",
+    "total": "Total",
+    "size": "Talla",
+    "sizes": "Tallas",
+    "no_image": "Sin imagen",
+    "checkout_success": "¡Pedido realizado con éxito!",
+    "checkout_items": "productos",
+    "checkout_free_shipping_message": "Añade más para envío gratis",
+    "checkout_secure": "Pago seguro",
+    "checkout_ssl": "SSL encriptado • Garantía de devolución de dinero",
+    "checkout_promo": "Agregar código promocional",
+    "checkout_apply": "Aplicar",
+    "checkout_continue_shopping": "Seguir comprando",
+    "checkout_each": "cada uno",
+    "checkout_proceed": "Proceder a la compra"
+  }
+}
