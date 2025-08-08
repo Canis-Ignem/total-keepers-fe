@@ -1,11 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import { NextIntlClientProvider, useTranslations } from 'next-intl';
 import { GOOGLE_DOC_FORM } from '@/lib/config';
-import FlyersSection from "@/components/FlyersSection";
-import TestimonialCard from "@/components/TestimonialCard";
-import BannerRotator from "@/components/BannerRotator";
-import TrainedWithUsSection from "@/components/TrainedWithUsSection";
-import TestimonialSection from "@/components/TestimonialSection";
+import FlyersSection from "@/components/sections/FlyersSection";
+import TestimonialCard from "@/components/testimonials/TestimonialCard";
+import BannerRotator from "@/components/layout/BannerRotator";
+import TrainedWithUsSection from "@/components/sections/TrainedWithUsSection";
+import TestimonialSection from "@/components/testimonials/TestimonialSection";
 
   const FLYER_URLS = [
       "/inicio/danok_bat_campusak_2025.webp",

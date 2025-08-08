@@ -1,9 +1,25 @@
 // Export all components for easier imports
-export { default as BannerRotator } from './BannerRotator';
-export { default as FlyerRotator } from './FlyerRotator';
-export { default as FlyersSection } from './FlyersSection';
-export { default as PlanningCard } from './PlanningCard';
-export { default as TestimonialCard } from './TestimonialCard';
-export { default as TestimonialRotator } from './TestimonialRotator';
-export { default as TestimonialSection } from './TestimonialSection';
-export { default as TrainedWithUsSection } from './TrainedWithUsSection';
+
+// Auth components
+export * from './auth';
+
+// Cart components
+export * from './cart';
+
+// Catalog components
+export * from './catalog';
+
+// Layout components
+export * from './layout';
+
+// Providers
+export * from './providers';
+
+// Sections
+export * from './sections';
+
+// Testimonials
+export * from './testimonials';
+
+// UI components
+export * from './ui';

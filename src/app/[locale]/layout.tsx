@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import ReduxProvider from "@/components/ReduxProvider";
-import Header from "@/components/Header";
+import ReduxProvider from "@/components/providers/ReduxProvider";
+import Header from "@/components/layout/Header";
+import { SessionProvider } from "@/components/providers/SessionProvider";
 
 
 
@@ -43,8 +44,10 @@ export default async function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}>
         <NextIntlClientProvider locale={locale} >
           <ReduxProvider>
-            <Header locale={locale} />
-            {children}
+            <SessionProvider>
+              <Header locale={locale} />
+              {children}
+            </SessionProvider>
           </ReduxProvider>
         </NextIntlClientProvider>
       </body>

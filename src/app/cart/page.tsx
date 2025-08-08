@@ -4,7 +4,7 @@ import { RootState } from "@/store/store";
 import { removeItem, updateQuantity, clearCart } from "@/store/cartSlice";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-import CartItemComponent from "@/components/CartItemComponent";
+import CartItemComponent from "@/components/cart/CartItemComponent";
 
 export default function CartPage() {
   const cartItems = useSelector((state: RootState) => state.cart?.items ?? []);

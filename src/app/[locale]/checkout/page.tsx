@@ -206,7 +206,7 @@ export default function CheckoutPage({ params }: CheckoutPageProps) {
                       value={couponCode}
                       onChange={(e) => setCouponCode(e.target.value)}
                       placeholder={t('enter_coupon_code')}
-                      className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="flex-1 px-3 py-2 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-900 placeholder-gray-500"
                     />
                     <button className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors">
                       {t('apply')}
