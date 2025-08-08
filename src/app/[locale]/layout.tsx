@@ -39,10 +39,14 @@ export default async function RootLayout({
 }>) {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: "layout" });
+    
+    // Load messages for client components
+    const messages = (await import(`../../../public/locales/${locale}.json`)).default;
+    
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}>
-        <NextIntlClientProvider locale={locale} >
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ReduxProvider>
             <SessionProvider>
               <Header locale={locale} />

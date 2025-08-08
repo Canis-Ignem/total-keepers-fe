@@ -52,8 +52,9 @@ const Header: React.FC<HeaderProps> = ({ locale }) => {
       <nav className="flex-1 flex flex-wrap gap-6 text-sm font-semibold justify-center ml-8">
         <a href="/" className="hover:text-blue-700">{t('home')}</a>
         <a href="/campus-de-verano-bilbao" className="hover:text-blue-700">{t('campus')}</a>
+        <a href="/campus-booking" className="hover:text-blue-700">{t('book_training')}</a>
         <a href="#" className="hover:text-blue-700">{t('coaches')}</a>
-        <a href="/new-gloves" className="hover:text-blue-700">{t('contact')}</a>
+        <a href="/new-gloves" className="hover:text-blue-700">{t('new_gloves')}</a>
         <a href="/catalog" className="hover:text-blue-700">{t('gloves')}</a>
         <a href="#" className="hover:text-blue-700">{t('photos')}</a>
       </nav>

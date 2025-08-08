@@ -2,6 +2,7 @@
   "layout": {
     "home": "Home",
     "campus": "Summer Campus Bilbao",
+    "book_training": "Book Training",
     "coaches": "Coaches",
     "contact": "Contact",
     "gloves": "TKG Gloves",
@@ -9,7 +10,8 @@
     "profile": "Profile",
     "sign_out": "Sign Out",
     "sign_in": "Sign In",
-    "sign_up": "Sign Up"
+    "sign_up": "Sign Up",
+    "new_gloves": "New Design Contest"
   },
   "home": {
     "paragraph_title": "What is Total Keepers?",
@@ -173,7 +175,8 @@
     "sso_login_failed": "SSO login failed",
     "auth_error_occurred": "An authentication error occurred",
     "auth_error_title": "Authentication Error",
-    "try_signing_in_again": "Try signing in again"
+    "try_signing_in_again": "Try signing in again",
+    "logged_in_as": "Logged in as"
   },
   "catalog": {
     "title": "GLOVES CATALOG",
@@ -375,6 +378,90 @@
       "discount_answer": "All voting participants automatically qualify for 30% off pre-orders. You'll receive a discount code via email after voting closes.",
       "shipping_question": "Do you ship internationally?",
       "shipping_answer": "Yes, we ship worldwide. Shipping costs and delivery times vary by location. Free shipping is available for orders over €100."
+    }
+  },
+  "campus_booking": {
+    "title": "Book Your Training Session",
+    "subtitle": "Join our intensive goalkeeper training sessions led by professional coaches",
+    "schedule_title": "Available Sessions",
+    "no_sessions": "No sessions available at the moment",
+    "loading": "Loading sessions...",
+    "session_details": {
+      "coach": "Coach",
+      "location": "Location", 
+      "duration": "Duration",
+      "price": "Price",
+      "spots_available": "spots available",
+      "spot_available": "spot available",
+      "session_full": "Session Full",
+      "session_past": "Session Ended"
+    },
+    "booking_form": {
+      "title": "Book This Session",
+      "participant_info": "Participant Information",
+      "participant_name": "Full Name",
+      "participant_name_placeholder": "Enter participant's full name",
+      "participant_email": "Email Address",
+      "participant_email_placeholder": "Enter email address",
+      "participant_phone": "Phone Number",
+      "participant_phone_placeholder": "Enter phone number",
+      "participant_age": "Age",
+      "participant_age_placeholder": "Enter age",
+      "guardian_info": "Guardian Information (Required for under 18)",
+      "guardian_name": "Guardian Full Name",
+      "guardian_name_placeholder": "Enter guardian's full name",
+      "guardian_email": "Guardian Email",
+      "guardian_email_placeholder": "Enter guardian's email",
+      "guardian_phone": "Guardian Phone",
+      "guardian_phone_placeholder": "Enter guardian's phone",
+      "additional_info": "Additional Information",
+      "notes": "Special Requirements or Notes",
+      "notes_placeholder": "Any allergies, medical conditions, or special requests...",
+      "book_session": "Book Session",
+      "booking": "Booking...",
+      "free_session": "Free Session",
+      "price_per_person": "per person"
+    },
+    "booking_success": {
+      "title": "Booking Confirmed!",
+      "subtitle": "Your training session has been successfully booked",
+      "reference": "Booking Reference",
+      "email_sent": "A confirmation email has been sent to",
+      "what_next": "What's Next?",
+      "arrive_early": "Arrive 15 minutes early for check-in",
+      "bring_gear": "Bring your goalkeeper gloves and water bottle",
+      "contact_us": "Contact us if you have any questions",
+      "view_booking": "View Booking Details",
+      "book_another": "Book Another Session"
+    },
+    "my_bookings": {
+      "title": "My Bookings",
+      "no_bookings": "You don't have any bookings yet",
+      "upcoming": "Upcoming Sessions",
+      "past": "Past Sessions",
+      "cancelled": "Cancelled",
+      "confirmed": "Confirmed",
+      "pending": "Pending",
+      "cancel_booking": "Cancel Booking",
+      "edit_booking": "Edit Booking",
+      "view_details": "View Details"
+    },
+    "filters": {
+      "all_sessions": "All Sessions",
+      "featured_only": "Featured Sessions", 
+      "available_only": "Available Only",
+      "this_week": "This Week",
+      "next_week": "Next Week",
+      "this_month": "This Month"
+    },
+    "errors": {
+      "session_not_found": "Session not found",
+      "session_full": "This session is fully booked",
+      "booking_failed": "Failed to create booking. Please try again.",
+      "invalid_age": "Please enter a valid age",
+      "guardian_required": "Guardian information is required for participants under 18",
+      "invalid_email": "Please enter a valid email address",
+      "network_error": "Network error. Please check your connection and try again."
     }
   }
 }

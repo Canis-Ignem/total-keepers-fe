@@ -1,8 +1,8 @@
 {
-
   "layout": {
     "home": "Inicio",
     "campus": "Campus de Verano Bilbao",
+    "book_training": "Reservar Entrenamiento",
     "coaches": "Entrenadores",
     "contact": "Contacto",
     "gloves": "Guantes TKG",
@@ -10,7 +10,8 @@
     "profile": "Perfil",
     "sign_out": "Cerrar Sesión",
     "sign_in": "Iniciar Sesión",
-    "sign_up": "Registrarse"
+    "sign_up": "Registrarse",
+    "new_gloves": "Concurso Nuevo Diseño"
   },
   "campus":{
     "campus_weekly_planning":"PLANIFICACIÓN SEMANAL BILBAO",
@@ -176,7 +177,8 @@
     "sso_login_failed": "Error en el inicio de sesión SSO",
     "auth_error_occurred": "Ha ocurrido un error de autenticación",
     "auth_error_title": "Error de Autenticación",
-    "try_signing_in_again": "Intenta iniciar sesión nuevamente"
+    "try_signing_in_again": "Intenta iniciar sesión nuevamente",
+    "logged_in_as": "Conectado como"
   },
   "catalog":{
     "title":"CATÁLOGO DE GUANTES",
@@ -382,6 +384,90 @@
       "discount_answer": "Todos los participantes en la votación califican automáticamente para 30% de descuento en preórdenes. Recibirás un código de descuento por email después de que cierre la votación.",
       "shipping_question": "¿Envían internacionalmente?",
       "shipping_answer": "Sí, enviamos mundialmente. Los costos de envío y tiempos de entrega varían por ubicación. Envío gratis disponible para pedidos sobre €100."
+    }
+  },
+  "campus_booking": {
+    "title": "Reserva Tu Sesión de Entrenamiento",
+    "subtitle": "Únete a nuestras sesiones intensivas de entrenamiento de porteros dirigidas por entrenadores profesionales",
+    "schedule_title": "Sesiones Disponibles",
+    "no_sessions": "No hay sesiones disponibles en este momento",
+    "loading": "Cargando sesiones...",
+    "session_details": {
+      "coach": "Entrenador",
+      "location": "Ubicación",
+      "duration": "Duración",
+      "price": "Precio",
+      "spots_available": "plazas disponibles",
+      "spot_available": "plaza disponible", 
+      "session_full": "Sesión Completa",
+      "session_past": "Sesión Finalizada"
+    },
+    "booking_form": {
+      "title": "Reservar Esta Sesión",
+      "participant_info": "Información del Participante",
+      "participant_name": "Nombre Completo",
+      "participant_name_placeholder": "Introduce el nombre completo del participante",
+      "participant_email": "Dirección de Email",
+      "participant_email_placeholder": "Introduce la dirección de email",
+      "participant_phone": "Número de Teléfono",
+      "participant_phone_placeholder": "Introduce el número de teléfono",
+      "participant_age": "Edad",
+      "participant_age_placeholder": "Introduce la edad",
+      "guardian_info": "Información del Tutor (Requerido para menores de 18)",
+      "guardian_name": "Nombre Completo del Tutor",
+      "guardian_name_placeholder": "Introduce el nombre completo del tutor",
+      "guardian_email": "Email del Tutor",
+      "guardian_email_placeholder": "Introduce el email del tutor",
+      "guardian_phone": "Teléfono del Tutor",
+      "guardian_phone_placeholder": "Introduce el teléfono del tutor",
+      "additional_info": "Información Adicional",
+      "notes": "Requisitos Especiales o Notas",
+      "notes_placeholder": "Alergias, condiciones médicas, o peticiones especiales...",
+      "book_session": "Reservar Sesión",
+      "booking": "Reservando...",
+      "free_session": "Sesión Gratuita",
+      "price_per_person": "por persona"
+    },
+    "booking_success": {
+      "title": "¡Reserva Confirmada!",
+      "subtitle": "Tu sesión de entrenamiento ha sido reservada exitosamente",
+      "reference": "Referencia de Reserva",
+      "email_sent": "Un email de confirmación ha sido enviado a",
+      "what_next": "¿Qué Sigue?",
+      "arrive_early": "Llega 15 minutos antes para el registro",
+      "bring_gear": "Trae tus guantes de portero y botella de agua",
+      "contact_us": "Contáctanos si tienes alguna pregunta",
+      "view_booking": "Ver Detalles de Reserva",
+      "book_another": "Reservar Otra Sesión"
+    },
+    "my_bookings": {
+      "title": "Mis Reservas",
+      "no_bookings": "No tienes reservas todavía",
+      "upcoming": "Sesiones Próximas",
+      "past": "Sesiones Pasadas",
+      "cancelled": "Cancelada",
+      "confirmed": "Confirmada",
+      "pending": "Pendiente",
+      "cancel_booking": "Cancelar Reserva",
+      "edit_booking": "Editar Reserva",
+      "view_details": "Ver Detalles"
+    },
+    "filters": {
+      "all_sessions": "Todas las Sesiones",
+      "featured_only": "Solo Destacadas",
+      "available_only": "Solo Disponibles",
+      "this_week": "Esta Semana",
+      "next_week": "Próxima Semana",
+      "this_month": "Este Mes"
+    },
+    "errors": {
+      "session_not_found": "Sesión no encontrada",
+      "session_full": "Esta sesión está completamente reservada",
+      "booking_failed": "Error al crear la reserva. Por favor intenta de nuevo.",
+      "invalid_age": "Por favor introduce una edad válida",
+      "guardian_required": "La información del tutor es requerida para participantes menores de 18",
+      "invalid_email": "Por favor introduce una dirección de email válida",
+      "network_error": "Error de red. Por favor verifica tu conexión e intenta de nuevo."
     }
   }
 }

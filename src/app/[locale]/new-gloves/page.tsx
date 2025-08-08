@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import {
   HeroSection,
   StatsSection,
@@ -66,10 +65,17 @@ const mockVotingOptions: VoteOption[] = [
 
 export default function NewGlovesPage() {
   const t = useTranslations("gloves");
+  const locale = useLocale();
   const [userVote, setUserVote] = useState<string | null>(null);
   const [votingOptions, setVotingOptions] = useState<VoteOption[]>(mockVotingOptions);
   const [showResults, setShowResults] = useState(false);
   const [totalVotes, setTotalVotes] = useState(0);
+
+  // Debug: Log the current locale and a sample translation
+  useEffect(() => {
+    console.log('Current locale:', locale);
+    console.log('Sample translation (hero.title):', t('hero.title'));
+  }, [locale, t]);
 
   useEffect(() => {
     // Calculate total votes
